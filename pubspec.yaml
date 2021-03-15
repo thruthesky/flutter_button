@@ -1,6 +1,6 @@
 name: simple_button
 description: A simple but highly customizable Flutter button package.
-version: 0.0.1
+version: 0.0.3
 homepage: https://github.com/thruthesky/simple_button
 
 environment:

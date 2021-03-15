@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:simple_button/button.dart';
+import 'package:simple_button/simple_button.dart';
 
 void main() {
   runApp(MyApp());
