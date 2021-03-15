@@ -41,11 +41,11 @@ class _MyHomePageState extends State<MyHomePage> {
             Text('These are the buttons :'),
             Button(
               child: Text('Apple'),
-              onPress: () => print('Apple'),
+              onPressed: () => print('Apple'),
             ),
             Button(
               child: Text('Banana'),
-              onPress: () => print('Banana'),
+              onPressed: () => print('Banana'),
               backgroundColor: Colors.transparent,
             ),
             Button(
@@ -53,16 +53,16 @@ class _MyHomePageState extends State<MyHomePage> {
                 'Cherry',
                 style: TextStyle(color: Colors.blue),
               ),
-              onPress: () => print('Cherry'),
+              onPressed: () => print('Cherry'),
               backgroundColor: Colors.transparent,
             ),
-            Button(child: Text('Dragon'), onPress: () => print('Dragon'), elevation: 2.0),
+            Button(child: Text('Dragon'), onPressed: () => print('Dragon'), elevation: 2.0),
             Button(
               child: Text('Dragon'),
               elevation: 2.0,
               margin: EdgeInsets.only(top: 8.0),
               padding: EdgeInsets.only(top: 8.0, left: 12.0, right: 12.0, bottom: 8.0),
-              onPress: () => print('Dragon'),
+              onPressed: () => print('Dragon'),
               radius: 20,
             ),
             SizedBox(
@@ -73,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 elevation: 2.0,
                 margin: EdgeInsets.only(top: 8.0),
                 padding: EdgeInsets.only(top: 8.0, left: 12.0, right: 12.0, bottom: 8.0),
-                onPress: () => print('Dragon'),
+                onPressed: () => print('Dragon'),
                 radius: 20,
               ),
             ),

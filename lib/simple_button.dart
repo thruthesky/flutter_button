@@ -9,7 +9,7 @@ class Button extends StatefulWidget {
     this.margin = const EdgeInsets.all(0.0),
     this.padding = const EdgeInsets.all(8.0),
     this.backgroundColor = const Color.fromARGB(255, 222, 222, 222),
-    @required this.onPress,
+    @required this.onPressed,
     this.elevation = 0.0,
     this.radius = 0.0,
   });
@@ -18,7 +18,7 @@ class Button extends StatefulWidget {
   final Color backgroundColor;
   final EdgeInsets margin;
   final EdgeInsets padding;
-  final Function onPress;
+  final Function onPressed;
   final double elevation;
   final double radius;
   @override
@@ -45,7 +45,7 @@ class _ButtonState extends State<Button> {
           elevation: widget.elevation,
         ),
       ),
-      onTap: widget.onPress,
+      onTap: widget.onPressed,
       behavior: HitTestBehavior.opaque,
     );
   }
